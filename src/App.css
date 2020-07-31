@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app{
+    background-color: #DDDDDD;
+}
+
+.app__posts{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.app__postsright{
+    margin-left: 20px;
+}
+
+.app__header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #0F0F0F;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__headerImage{
+    width: 60px;
+    object-fit: contain;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+.app__signup{
+    display: flex;
+    flex-direction: column;
+}
+
+.free{
+    margin-bottom: 15px;   
+    color:whitesmoke;
+    font-size: 23px;
+}
+
+.btn{
+    margin-top: 20px;
+    font-size: 17px;
+    color: whitesmoke;
+    border: none;
+    background-color: transparent;
+}
